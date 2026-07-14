@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# FinBank 💚
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FinBank is a modern, interactive personal finance and banking analytics dashboard built using **React**. It is designed to help users track transactions, visualize spending patterns, set category budgets, and simulate future wealth growth with data-driven insights.
 
-## Available Scripts
+## 🚀 Key Features
+
+* **📈 Financial Analytics Dashboard**: Real-time summary of Total Income, Total Expenses, and Net Savings.
+* **📊 Reactive Spending Chart**: A dynamic HTML5 Canvas bar chart that reactively aggregates and visualizes expenses by category.
+* **🎯 Budget Calculator**: Set monthly spending limits per category, track budget usage, and receive color-coded warnings (near limit, over budget).
+* **🔮 What-If Simulator**: Compounds monthly extra savings over 1, 3, and 5 years to project long-term financial growth.
+* **💚 Financial Health Score**: Evaluates your saving rate and expense control to give an automated wellness score and letter grade (A-F) with custom tips.
+* **🌓 Dark Mode**: Seamless toggle between light and dark modes for comfortable day and night viewing.
+* **📋 Transaction Management**: Add or delete transactions with colored badges indicating transaction type.
+
+## 🛠️ Tech Stack
+
+* **Frontend**: React (Hooks, Canvas rendering)
+* **Styling**: Vanilla CSS (including custom dark/light themes and glassmorphic designs)
+* **Visuals**: Custom HTML5 Canvas rendering for performance-efficient charting (no heavy external chart libraries needed)
+
+## 📦 Getting Started
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aryaanswain-13/FinBank.git
+   cd FinBank
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the local development server:
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## 📝 Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* `npm start` - Runs the app in development mode.
+* `npm run build` - Builds the app for production to the `build` folder.
+* `npm test` - Launches the test runner.
