@@ -1,24 +1,24 @@
-# FinBank 💚
+# FinBank
 
 FinBank is a modern, interactive personal finance and banking analytics dashboard built using **React**. It is designed to help users track transactions, visualize spending patterns, set category budgets, and simulate future wealth growth with data-driven insights.
 
-## 🚀 Key Features
+## Key Features
 
-* **📈 Financial Analytics Dashboard**: Real-time summary of Total Income, Total Expenses, and Net Savings.
-* **📊 Reactive Spending Chart**: A dynamic HTML5 Canvas bar chart that reactively aggregates and visualizes expenses by category.
-* **🎯 Budget Calculator**: Set monthly spending limits per category, track budget usage, and receive color-coded warnings (near limit, over budget).
-* **🔮 What-If Simulator**: Compounds monthly extra savings over 1, 3, and 5 years to project long-term financial growth.
-* **💚 Financial Health Score**: Evaluates your saving rate and expense control to give an automated wellness score and letter grade (A-F) with custom tips.
-* **🌓 Dark Mode**: Seamless toggle between light and dark modes for comfortable day and night viewing.
-* **📋 Transaction Management**: Add or delete transactions with colored badges indicating transaction type.
+* **Financial Analytics Dashboard**: Real-time summary of Total Income, Total Expenses, and Net Savings.
+* **Reactive Spending Chart**: A dynamic HTML5 Canvas bar chart that reactively aggregates and visualizes expenses by category.
+* **Budget Calculator**: Set monthly spending limits per category, track budget usage, and receive color-coded warnings (near limit, over budget).
+* **What-If Simulator**: Compounds monthly extra savings over 1, 3, and 5 years to project long-term financial growth.
+* **Financial Health Score**: Evaluates your saving rate and expense control to give an automated wellness score and letter grade (A-F) with custom tips.
+* **Dark Mode**: Seamless toggle between light and dark modes for comfortable day and night viewing.
+* **Transaction Management**: Add or delete transactions with colored badges indicating transaction type.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Frontend**: React (Hooks, Canvas rendering)
 * **Styling**: Vanilla CSS (including custom dark/light themes and glassmorphic designs)
 * **Visuals**: Custom HTML5 Canvas rendering for performance-efficient charting (no heavy external chart libraries needed)
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
